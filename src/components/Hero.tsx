@@ -123,7 +123,7 @@ const Hero = () => {
               <ArrowRight className="h-5 w-5" />
             </button>
             <a
-              href="Resume-CV.pdf"
+              href="/portfolio/Resume-CV.pdf"
               download="Resume-CV.pdf"
               className="flex items-center space-x-2 bg-transparent text-green-400 px-8 py-4 rounded-lg border border-green-500 hover:bg-green-500/10 transition-all duration-300 transform hover:scale-105 font-mono"
             >
