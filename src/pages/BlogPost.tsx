@@ -41,7 +41,7 @@ const BlogPost = () => {
     return (
       <div className="min-h-screen bg-black text-green-300 flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-4xl font-bold text-green-400 mb-4 font-mono">404 - Post Not Found</h1>
+          <h1 className="text-4xl font-bold text-green-400 mb-4 font-mono">404 - Are you lost? </h1>
           <button
             onClick={() => navigate('/')}
             className="flex items-center space-x-2 bg-green-500 text-black px-6 py-3 rounded-lg hover:bg-green-400 transition-all duration-300 mx-auto font-mono"
@@ -119,7 +119,7 @@ const BlogPost = () => {
               <div className="mt-12 pt-6 border-t border-green-500/30">
                 <div className="flex items-center space-x-2 text-green-400 font-mono text-sm">
                   <Terminal className="h-4 w-4" />
-                  <span>End of file - Press any key to continue...</span>
+                  <span>End of file - Return back to ./main_page </span>
                 </div>
               </div>
             </div>

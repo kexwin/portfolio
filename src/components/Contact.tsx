@@ -46,7 +46,7 @@ const Contact = () => {
             {'>'} ./contact --init
           </h2>
           <p className="text-xl text-green-300 max-w-2xl mx-auto font-mono">
-            Willing to collaborate on your next project? Let's establish a secure connection.
+            Willing to collaborate on the next project? Let's establish a secure connection.
           </p>
         </div>
 
@@ -192,10 +192,10 @@ const Contact = () => {
 
             {/* Availability Status */}
             <div className="bg-gradient-to-br from-green-500/20 to-green-600/20 rounded-lg p-6 border border-green-500/30 backdrop-blur-sm">
-              <h3 className="text-xl font-bold text-green-400 mb-4 font-mono">{'>'} system_status</h3>
+              <h3 className="text-xl font-bold text-green-400 mb-4 font-mono">{'>'} sys_status</h3>
               <p className="text-green-200 mb-4 font-mono">
                 Currently available for freelance projects or to chat about my projects and contributions. 
-                Let's secure the digital infrastructure together.
+                Let's contribute to the digital infrastructure together.
               </p>
               <div className="flex items-center space-x-2">
                 <div className="w-3 h-3 bg-green-400 rounded-full animate-pulse"></div>

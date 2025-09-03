@@ -71,8 +71,8 @@ const Hero = () => {
                 </div>
                 <div className="text-left space-y-2 text-green-300">
                   <div>{'>'} Cybersecurity Enthusiast</div>
+                  <div>{'>'} Bug Bounty Hunter</div>
                   <div>{'>'} Seasonal Programmer</div>
-                  <div>{'>'} Bug Bounty Player</div>
                   <div>{'>'} Front-end Developer</div>
                 </div>
               </div>
@@ -88,7 +88,7 @@ const Hero = () => {
             <p className="text-xl md:text-2xl text-green-300 mb-8 max-w-3xl mx-auto leading-relaxed font-mono">
               Penetrating the digital realm, one line of code at a time.
               <br />
-              <span className="text-green-500">Building the future through technology.</span>
+              <span className="text-green-500">Securing the future through technology.</span>
             </p>
           </div>
 
@@ -119,7 +119,7 @@ const Hero = () => {
               className="flex items-center space-x-2 bg-green-500 text-black px-8 py-4 rounded-lg hover:bg-green-400 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-green-500/25 font-mono font-bold"
             >
               <Terminal className="h-5 w-5" />
-              <span>./my_projects</span>
+              <span>./projects</span>
               <ArrowRight className="h-5 w-5" />
             </button>
             <a

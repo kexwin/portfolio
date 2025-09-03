@@ -99,15 +99,15 @@ const Footer = () => {
             <h3 className="text-green-400 font-semibold mb-4 font-mono">{'>'} services</h3>
             <div className="space-y-2 font-mono text-sm">
               <p className="text-green-300">Penetration Testing</p>
-              <p className="text-green-300">Bug Bounty Programs</p>
-              <p className="text-green-300">Seasonal Programmer</p>
-              <p className="text-green-300">CTF Player</p>
+              <p className="text-green-300">Bug Bounty Hunting</p>
+              <p className="text-green-300">Seasonal Programming</p>
+              <p className="text-green-300">CTF Mentoring</p>
             </div>
           </div>
 
           {/* System Info */}
           <div>
-            <h3 className="text-green-400 font-semibold mb-4 font-mono">{'>'} system_info</h3>
+            <h3 className="text-green-400 font-semibold mb-4 font-mono">{'>'} sys_info</h3>
             <div className="space-y-2 font-mono text-sm">
               <p className="text-green-300">shreehari.deshpande2005@gmail.com</p>
               <p className="text-green-300">Bengaluru, India</p>

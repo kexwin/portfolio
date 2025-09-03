@@ -12,11 +12,19 @@ const Projects = () => {
       type: "OffSec"
     },
     {
+      title: "Command and Control (C2) Framework",
+      description: "A lightweight and extensible C2 framework built in Python using Flask and custom agents. Provides a CLI interface for managing multiple agents, executing remote commands, and simulating red team adversary emulation scenarios.",
+      technologies: ["Python", "Flask", "UUID", "Requests", "Subprocess"],
+      github: "https://github.com/kexwin/C2-Server",
+      featured: true,
+      type: "Red Team Simulation"
+    },
+    {
       title: "Stealth Remote Access Tool",
       description: "A fully undetectable backdoor implementation using sockets. Employs advanced evasion techniques, encrypted communication channels, and persistence mechanisms for red team operations.",
       technologies: ["Python", "Sockets", "Encryption", "Remote Shell"],
       github: "https://github.com/kexwin/FUD-Backdoor",
-      featured: true,
+      featured: false,
       type: "Penetration Testing"
     },
     {
@@ -24,8 +32,16 @@ const Projects = () => {
       description: "Advanced FTP cracking tool with brute-force and dictionary attack logics. Features multi-threaded processing, custom wordlist support, and comprehensive logging for security assessments.",
       technologies: ["Python", "Threading", "Brute-force", "ftplib"],
       github: "https://github.com/kexwin/FTP-Cracker",
-      featured: true,
+      featured: false,
       type: "OffSec"
+    },
+    {
+      title: "SSH Botnet Controller",
+      description: "A Python-based botnet framework leveraging SSH to manage multiple remote devices. Enables distributed command execution and simulates SYN flood DDoS attacks for educational cybersecurity research and red team practice.",
+      technologies: ["Python", "Paramiko", "SSH", "Networking"],
+      github: "https://github.com/kexwin/SSH-Botnet",
+      featured: true,
+      type: "Cybersecurity Research"
     },
     {
       title: "PDF Security Analyzer",

@@ -7,11 +7,11 @@ const Blog = () => {
 
   const blogPosts = [
     {
-      title: "Reported a bug of NASA on the first try",
-      excerpt: "I reported a P5 severity bug of NASA and received a Hall of Fame on my very first attempt to discover bugs.",
+      title: "My First Bug Discovered",
+      excerpt: "I reported a critical bug of NASA and received a Hall of Fame on my very first attempt to discover bugs.",
       date: "4th July, 2025",
       readTime: "5 mins read",
-      tags: ["Bug Bounty", "Hall of Fame", "Penetration Testing"],
+      tags: ["Bug Bounty", "Hall of Fame", "NASA"],
       slug: "My-First-Bug",
       featured: true
     },

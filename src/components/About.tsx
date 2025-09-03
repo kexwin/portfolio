@@ -18,7 +18,7 @@ const About = () => {
     {
       icon: <Shield className="h-8 w-8" />,
       title: "Security Research",
-      description: "Pentesting, Vulnerability Assessment, Bug Bounty Programs, CTFs",
+      description: "Pentesting, Vulnerability Assessment, Bug Bounty Hunting, CTFs",
       color: "from-green-400 to-green-500"
     },
     {
@@ -61,7 +61,7 @@ const About = () => {
                 &gt; Status: ONLINE
               </p>
               <p className="text-lg text-green-200 leading-relaxed">
-                I'm a 20 year old digital architect who thrives in the intersection of development and security. 
+                I'm a junior level digital architect engineer who thrives in the intersection of development and security. 
                 My journey began with curiosity about system vulnerabilities and evolved into a passion for 
                 testing robust, secure applications that can withstand the test of time and attacks.
                 I am also quite fond of bug bounty programs and have earned the NASA's Hall of Fame on my first try.
@@ -76,7 +76,7 @@ const About = () => {
                 Some of my prominent skills include:
               </p>
               <div className="flex flex-wrap gap-3">
-                {["React", "Python", "C", "Typescript", "Docker", "Payload creation", "Linux", "Wireshark", "Javascript", "NS2", "OSINT", "Metasploit Framework", "Nmap"].map((tech) => (
+                {["React", "Python", "C", "Typescript", "Docker", "Malware Development", "Linux", "Wireshark", "Javascript", "NS2", "OSINT", "Metasploit Framework", "Nmap"].map((tech) => (
                   <span
                     key={tech}
                     className="px-3 py-1 bg-green-500/20 text-green-300 rounded border border-green-500/30 text-sm font-mono"
